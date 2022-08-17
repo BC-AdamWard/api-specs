@@ -400,7 +400,7 @@ paths:
                 response:
                   value: 
                     data:
-                      - status: 422,
+                      - status: 422
                         title: "Unable to provide store credit for a guest customer."
                         type: "https://developer.bigcommerce.com/api-docs/getting-started/api-status-codes"
       tags:
