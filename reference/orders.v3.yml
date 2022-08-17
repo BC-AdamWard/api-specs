@@ -395,7 +395,7 @@ paths:
                   data:
                     type: array
                     items:
-                      $ref: '#/components/responses/422_UnprocessableEntity'
+                      $ref: '#/components/schemas/ErrorResponse'
               examples: 
                 response:
                   value: 
