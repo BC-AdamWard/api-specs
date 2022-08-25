@@ -1381,7 +1381,7 @@ components:
                   type: string
     Currency:
       type: object
-      description: The currenty. This will always be the same between cart and checkout.
+      description: The currency. This will always be the same between cart and checkout.
       properties:
         code:
           type: string
@@ -1681,7 +1681,7 @@ components:
                                 totalDiscount:
                                   type: number
                                   example: 4.19
-                                  description: Total amount discounted off teh entired cart
+                                  description: Total amount discounted off the entired cart
                           required:
                             - coupon_code
                   discount_amount:
@@ -2163,7 +2163,7 @@ components:
               description: The total value of all coupons applied to this item.
             list_price:
               type: number
-              description: 'List prace of the item, as quoted by the manufacturer/distributor. Optional price override.'
+              description: 'List price of the item, as quoted by the manufacturer/distributor. Optional price override.'
             sale_price:
               type: number
               description: Item's price after all discounts are applied. (The final price before tax calculation.)
