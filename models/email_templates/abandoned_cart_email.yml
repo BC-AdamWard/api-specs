@@ -133,6 +133,8 @@ oneOf:
                     items:
                       type: object
                       properties:
+                        id:
+                          type: number
                         url:
                           type: string
                         name:
@@ -188,6 +190,8 @@ oneOf:
                     items:
                       type: object
                       properties:
+                        id:
+                          type: number
                         url:
                           type: string
                         name:
@@ -299,6 +303,8 @@ oneOf:
               items:
                 type: object
                 properties:
+                  id:
+                    type: number
                   name:
                     type: string
       misc:
